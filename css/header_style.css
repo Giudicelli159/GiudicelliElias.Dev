@@ -9,6 +9,16 @@
     padding: 0 15px;
 }
 
+header h1{
+    height: 83px;
+    padding: 0 20px;
+    margin: 0;
+    border-right: 2px solid black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
 .header ul{
     display: flex;
     gap: 10px;

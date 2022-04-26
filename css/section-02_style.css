@@ -13,8 +13,8 @@
     gap: 40px;
 }
 .div-section-defaul{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 200px;
     background-color: var(--azul-default);
 }
 
@@ -30,9 +30,8 @@
     margin: auto;
     text-align: center;
 }
-
-.div-section-defaul a p{
-    padding: 0 10px;
+.div-section-defaul h4{
+    margin: 10px 0 0 0;
 }
 
 
