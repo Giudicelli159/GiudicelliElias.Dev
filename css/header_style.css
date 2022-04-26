@@ -1,0 +1,41 @@
+.header{
+    background-color: var(--azul-escuro);
+    color: white;
+}
+
+.header-conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: solid 2px rgba(97, 94, 94, 0.913);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    
+}
+
+.header a:link, a:visited, a:active{
+    text-decoration: none;
+
+}
+
+.header p{
+    color: white;
+}
+
+.header p:hover{
+    transition: all .4s;
+    color: gray;
+}
+
+.login img{
+    width: 25px;
+    height: 25px;
+}
