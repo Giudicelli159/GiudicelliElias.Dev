@@ -3,7 +3,6 @@
 }
 
 .div-barra{
-    background-color: rgba(97, 94, 94, 0.913);
     width: 100%;
     height: 2px;
 }
@@ -15,7 +14,7 @@
 .div-section-defaul{
     width: 350px;
     height: 350px;
-    background-color: var(--green-blue);
+    background-color: var(--azul-default);
 }
 
 .div-section-defaul a{

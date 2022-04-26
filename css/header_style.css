@@ -1,18 +1,14 @@
 .header{
-    background-color: var(--azul-escuro);
-    color: white;
-}
-
-.header-conteudo{
+    background-color: var(--azul-default);
+    color: var(--black);
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    border-bottom: solid 2px rgba(97, 94, 94, 0.913);
-    max-width: 1200px;
-    margin: 0 auto;
+    width: 77.5%;
+    margin-right: 20%;
+    padding: 0 15px;
 }
-
 
 .header ul{
     display: flex;
@@ -21,13 +17,24 @@
     
 }
 
+.header ul li a{
+    display: flex;
+    align-items: center;
+}
+
+.header ul li a img{
+    width: 35%;
+    height: 35%;
+
+}
+
 .header a:link, a:visited, a:active{
     text-decoration: none;
 
 }
 
 .header p{
-    color: white;
+    color: var(--black);
 }
 
 .header p:hover{

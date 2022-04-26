@@ -10,7 +10,7 @@
 .div-skills{
     width: 65%;
     border-radius: 20px;
-    background-color: var(--green-blue);
+    background-color: var(--azul-default);
 }
 
 .div-skills ul{
@@ -67,11 +67,3 @@
     margin: 0
 }
 
-.section-01 figure img{
-    display: flex;
-    margin: auto;
-    width: 150px;
-    height: 150px;
-
-    float: right;
-}

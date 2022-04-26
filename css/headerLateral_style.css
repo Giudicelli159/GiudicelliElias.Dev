@@ -1,0 +1,24 @@
+.header-lateral{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    border-left: 3px solid var(--black);
+    margin: 0;
+}
+
+.header-lateral figure img{
+    width: 150px;
+    height: 150px;
+    border: 10px solid var(--azul-defaul-claro);
+    border-radius: 100%;
+}
+
+.header-lateral figcaption{
+    margin-top: 70px;
+
+}

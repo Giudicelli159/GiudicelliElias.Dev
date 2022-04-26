@@ -3,20 +3,24 @@
 
 
 body{
-    --black: #1b1c1e;
+    --black:#000000;
     --green-blue: #6e93d6;
     --azul-escuro: #111b1e;
-    --azul-claro: #6e93d6;
+    --azul-default:#75D3FB;
+    --azul-defaul-claro:#D6E7F1;
+    
 
     font-family: 'Roboto', Arial, sans-serif;
     color: var(--azul-escuro);
-    background-color: rgba(23, 23, 23, 0.864);
+    background-color: #D1CDCD;
     margin: 0 auto;
     
 }
 
 main{
-    max-width: 1200px;
-    margin: 0 auto;
+    width: 77.5%;
+    margin-right: 20%;
+    padding: 20px 30px;
+
 }
 
