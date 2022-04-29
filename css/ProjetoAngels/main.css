@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6{
         background-color: #521a66;
         background-image: url(../images/bg_topo_1198x670.jpg);
         */
-        background: #521a66 url(/imagens/ProjetoAngels/bg_topo_1600x1374.jpg);
+        background: #521a66 url(../imagens/ProjetoAngels/bg_topo_1600x1374.jpg);
         background-position: center bottom;
         height: 20em;
         padding-top: 17em;
@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6{
 
 @media screen and (min-width: 64em) {
     .top-content{
-        background-image: url(/imagens/ProjetoAngels/bg_topo_1600x1374.jpg);
+        background-image: url(../imagens/ProjetoAngels/bg_topo_1600x1374.jpg);
         padding: 19em 20em 10em;
         background-position: center top;
     }
