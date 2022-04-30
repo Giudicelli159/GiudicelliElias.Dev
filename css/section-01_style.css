@@ -22,7 +22,11 @@
 
 }
 
-.div-skills ul h3{
+.div-skills a:link, a:visited, a:active{
+    text-decoration: none;
+
+}
+.div-skills ul a{
     border: 2px solid var(--black);
     border-radius: 20px;
     display: inline;
@@ -30,13 +34,28 @@
     cursor: pointer;
 }
 
-.div-skills ul h3:hover{
+.div-skills ul a:hover{
     background-color: rgba(128, 128, 128, 0.524);
     transition: all .4s;
 }
 
-.div-skills ul p{
+.div-skills .active{
+    background-color: rgba(128, 128, 128, 0.524);
+}
+
+.div-skills .skillsText{
     display: none;
+}
+.primeiraSection{
+    display: block;
+}
+.div-skills .skillsText:target{
+    display: block;
+    transition: all .4s;
+}
+
+.div-skills .primeiraSection{
+    display: block;
 }
 
 
