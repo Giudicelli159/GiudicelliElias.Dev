@@ -47,11 +47,13 @@ header h1{
 
 .header p{
     color: var(--black);
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .header p:hover{
     transition: all .4s;
-    color: gray;
+    color: var(--background);
 }
 
 .login img{

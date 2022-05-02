@@ -22,3 +22,9 @@
     margin-top: 70px;
 
 }
+
+.header-lateral figcaption p{
+    font-size: 16px;
+    font-weight: bolder;
+    color: var(--black);
+}

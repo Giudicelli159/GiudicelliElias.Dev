@@ -32,6 +32,9 @@
     display: inline;
     padding: 0 10px;
     cursor: pointer;
+
+    font-weight: bold;
+    font-size: 18px;
 }
 .div-skills .ul-text {
     list-style: none;
@@ -42,25 +45,27 @@
 }
 
 .div-skills .ul-buttons a:hover{
-    background-color: rgba(128, 128, 128, 0.524);
-    transition: all .4s;
+    background-color: var(--black);
+    color: var(--background);
+    transition: all .8s;
 }
 
 .div-skills .active{
-    background-color: rgba(128, 128, 128, 0.524);
+    background-color: var(--black);
+    color: var(--background);
 }
 
 .div-skills .skillsText{
     display: none;
-    height: 35px;
     background-color: #D1CDCD;
     transition: all .4s;
     border-radius: 20px;
     text-align: center;
     padding: 10px;
+    font-size: 16px;
 }
 .primeiraSection{
-    display: block;
+    display: inline-block;
 }
 .div-skills .skillsText:target{
     display: block;
@@ -69,6 +74,7 @@
 .div-skills .primeiraSection{
     display: block;
 }
+
 
 
 /* .div-skills ul{
