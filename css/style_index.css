@@ -9,14 +9,19 @@ body{
 
     font-family: 'Roboto', Arial, sans-serif;
     color: var(--azul-escuro);
-    background-color: #D1CDCD;
     margin: 0 auto;
 
-    min-width: 965px;
+    
     
 }
 
-main{
+.body{
+    min-width: 965px;
+    background-color: #D1CDCD;
+}
+
+
+.main{
     margin-right: 350px;
     padding: 20px 30px;
 

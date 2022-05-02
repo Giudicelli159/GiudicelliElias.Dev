@@ -4,12 +4,12 @@ body{
 .background{
     width: 450px;
     height: 470px;
-    background-color: var(--black);
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     margin-top: 50px;
+    border: 2px solid var(--background);
 }
 .calculadora{
     width: 400px;
