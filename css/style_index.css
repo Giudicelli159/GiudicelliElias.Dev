@@ -11,6 +11,8 @@ body{
     color: var(--azul-escuro);
     background-color: #D1CDCD;
     margin: 0 auto;
+
+    min-width: 865px;
     
 }
 

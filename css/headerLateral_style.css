@@ -24,7 +24,13 @@
 }
 
 .header-lateral figcaption p{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bolder;
     color: var(--black);
+}
+
+@media screen and (max-width: 1000px){
+    .header-lateral figcaption p{
+        font-size: 25px;
+    }
 }
