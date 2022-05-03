@@ -1,6 +1,6 @@
 var nAtual = null;
 var buttonsN = document.querySelectorAll('.buttonNumber');
-document.querySelector('.tela').textContent = 'alert';
+document.getElementsByClassName('tela').value= 'dasas';
 for(let i = 0; buttonsN.length; i++){
     buttonsN[i].addEventListener('click', ()=>{
         alert("OI");

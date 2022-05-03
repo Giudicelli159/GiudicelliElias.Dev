@@ -1,31 +1,34 @@
 var buttons = document.querySelectorAll('.div-skills ul a');
-var atual = 0;
+var paragrafos = document.querySelectorAll('.skillsText')
+var atualButton = 0;
+var atualParagrafo = 'html';
 var primeiro = document.getElementById('0');
 var section = document.getElementById('html');
 
-primeiro.classList.add('active');
+primeiro.classList.add('active-button');
+section.classList.add('active-paragrafo')
 
-for(let i =0; i < buttons.length; i++){
+for(let i = 0; i < buttons.length; i++){
     buttons[i].addEventListener('click', ()=>{
-        atual = buttons[i].id;
+        atualButton = buttons[i].id;
         mudarButton();
-
-        if (section.className.endsWith('primeiraSection')){
-            removerPrimeiraSection();
-        }else{
-
-        }
+        atualParagrafo = paragrafos[i].id;
+        mudarParagrafo();
+ 
         
     });
 }
 
+
 function mudarButton(){
-    document.querySelector('.active').classList.remove('active');
-    document.getElementById(atual).classList.add('active');
+    document.querySelector('.active-button').classList.remove('active-button');
+    document.getElementById(atualButton).classList.add('active-button');
 }
 
-function removerPrimeiraSection(){
-    document.querySelector('.primeiraSection').classList.remove('primeiraSection');
+function mudarParagrafo(){
+    document.querySelector('.active-paragrafo').classList.remove('active-paragrafo');
+    document.getElementById(atualParagrafo).classList.add('active-paragrafo');
 
 }
+
 
