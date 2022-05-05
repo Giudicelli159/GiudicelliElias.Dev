@@ -180,8 +180,9 @@ img{
 
 .js .header__nav{
     transition: max-height 0.7s;
+    max-height: 0px;
+    overflow: hidden;
 }
-
 
 
 
@@ -456,11 +457,10 @@ img{
         clear: none;
         max-width: 800px;
        
-    }
+    } 
 
     .js .header__nav{
-        max-height: 0px;
-        overflow: hidden;
+        overflow: inherit;
     }
 
     .header__nav ul{
