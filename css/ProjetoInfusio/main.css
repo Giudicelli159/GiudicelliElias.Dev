@@ -47,6 +47,7 @@ img{
     position: absolute;
     top: 0;
     left: 0;
+    margin: 0;
     
 }
 
@@ -64,11 +65,11 @@ img{
 }
 
 .js .laptop-slider .prev{
-    left: 10px;
+    left: -25px;
 }
 
 .js .laptop-slider .next{
-    right: 10px;
+    right: -25px;
 }
 
 /* Stilização do textos com trasição de js */
@@ -179,8 +180,6 @@ img{
 
 .js .header__nav{
     transition: max-height 0.7s;
-    max-height: 0px;
-    overflow: hidden;
 }
 
 
@@ -456,6 +455,12 @@ img{
         width: 75%;
         clear: none;
         max-width: 800px;
+       
+    }
+
+    .js .header__nav{
+        max-height: 0px;
+        overflow: hidden;
     }
 
     .header__nav ul{
