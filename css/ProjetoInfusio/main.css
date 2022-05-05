@@ -84,7 +84,7 @@ img{
 }
 
 .js .header__nav{
-    transition: max-height 1s;
+    transition: max-height 0.7s;
 }
 
 
@@ -341,7 +341,7 @@ img{
 
 
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1025px){
     .header{
         position: fixed;
     }
