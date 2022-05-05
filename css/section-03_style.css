@@ -12,7 +12,7 @@
 }
 
 .contato a:hover{
-    color: gray;
+    color: rgba(122, 122, 122, 0.591);
     transition: all .4s;
 }
 .contato img{
