@@ -24,7 +24,101 @@ img{
 .js .header{
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
+
+.js .laptop-slider{
+    overflow: hidden;
+
+}
+
+.js .laptop-slider .slideshow{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    max-width: 900px;
+
+}
+
+.js .laptop-slider figure{
+    opacity: 0;
+    transition: opacity 1s;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.js .laptop-slider figure.show{
+    position: static;
+    opacity: 1;
+}
+
+.js .laptop-slider .prev, .js .laptop-slider .next{
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    color: white;
+}
+
+.js .laptop-slider .prev{
+    left: 10px;
+}
+
+.js .laptop-slider .next{
+    right: 10px;
+}
+
+/* Stilização do textos com trasição de js */
+.js .quote-container{
+    overflow: hidden;
+
+}
+
+.js .quote-container .quote-slideshow{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    max-width: 900px;
+
+}
+
+.js .quote-container figure{
+    opacity: 0;
+    transition: opacity 1s;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    
+}
+
+.js .quote-container figure.show{
+    position: static;
+    opacity: 1;
+}
+
+.js .quote-container .prev, .js .quote-container .next{
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    color: white;
+}
+
+.js .quote-container .prev{
+    left: -25px;
+}
+
+.js .quote-container .next{
+    right: -25px;
+}
+
+
+
 
 .logo-text{
     text-transform: uppercase;
@@ -85,6 +179,8 @@ img{
 
 .js .header__nav{
     transition: max-height 0.7s;
+    max-height: 0px;
+    overflow: hidden;
 }
 
 
