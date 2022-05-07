@@ -18,7 +18,7 @@ body{
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 6.5%);
+    grid-template-rows: repeat(6, 13%);
     grid-gap: 20px;
 
     
@@ -51,81 +51,86 @@ body{
 }
 
 .clear{
-
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
 }
 .um{
     
     grid-column: 1/ 2;
-    grid-row: 4 / 5;
+    grid-row: 5 / 6;
 }
 
 .dois{
     grid-column: 2 / 3;
-    grid-row: 4 / 5;
+    grid-row: 5 / 6;
 }
 
 .tres{
     grid-column: 3 / 4;
-    grid-row: 4 / 5;
+    grid-row: 5 / 6;
 }
 
 .quatro{
     grid-column: 1 / 2;
-    grid-row: 3 / 4;
+    grid-row: 4 / 5;
 }
 
 .cinco{
     grid-column: 2 / 3;
-    grid-row: 3 / 4;
+    grid-row: 4 / 5;
 }
 
 .seis{
     grid-column: 3 / 4;
-    grid-row: 3 / 4;
+    grid-row: 4 / 5;
 }
 
 .sete{
     grid-column: 1 / 2;
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
 }
 
 .oito{
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
 }
 
 .nove{
     grid-column: 3 / 4;
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
 }
 
 .zero{
     grid-column:  1 / 2;
-    grid-row: 5 / 6;
+    grid-row: 6 / 7;
 }
 
 .ponto{
     grid-column: 2 / 3;
-    grid-row: 5 / 6;
+    grid-row: 6 / 7;
 }
 
 .igual{
     grid-column: 3 / 4;
-    grid-row: 5 / 6;
+    grid-row: 6 / 7
 }
 
 .mais{
     grid-column: 4 / 5;
-    grid-row: 5 / 6;
+    grid-row: 6 / 7;
 }
 
 .menos{
     grid-column: 4 / 5;
-    grid-row:  4 / 5;
+    grid-row:  5 / 5;
 }
 
 .veses{
     grid-column: 4 / 5;
-    grid-row: 3 / 4;
+    grid-row: 4/ 5;
 }
 
+.divisão{
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+}
