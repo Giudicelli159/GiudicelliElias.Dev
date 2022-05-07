@@ -1,15 +1,31 @@
-var nAtual = null;
-var buttonsN = document.querySelectorAll('.buttonNumber');
-document.getElementsByClassName('tela').value= 'dasas';
-for(let i = 0; buttonsN.length; i++){
-    buttonsN[i].addEventListener('click', ()=>{
-        alert("OI");
-        document.querySelector("[name='tela']").value = 'alert';
+var nAtual = '';
+var buttons = document.querySelectorAll('.button');
+var buttonClear = document.querySelector('.clear');
+var buttonsO = document.querySelectorAll('.buttonOpera');
+var tela = document.querySelector('.tela');
+
+buttonClear.addEventListener('click', ()=>{
+    clear();
+});
+for(let i = 0; i < buttons.length; i++){
+    buttons[i].addEventListener('click', ()=>{
+        digitar(i);
     });
 }
 
 
-function numeroAtual (){
-    alert("OI");
-    document.querySelector("[name='tela']").value = 'alert';
+function digitar(Atual){
+    tela.value += buttons[Atual].value;
+    // console.log(tela.value);
+    // console.log(buttons[Atual].value);
+}
+
+function Operacao(){
+    var valor = tela.value;
+    valor += 4;
+    tela.value = valor;
+}
+
+function clear(){
+    tela.value = '';
 }

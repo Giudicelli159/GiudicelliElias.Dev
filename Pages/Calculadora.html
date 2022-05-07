@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="../css/Calculadora_style.css">
         <link rel="stylesheet" href="../css/style_index.css">
 
-        <script src="/js/calculadora.js"></script>
+        
 
     </head>
 <body>
@@ -17,25 +17,28 @@
         <div class="background">
             <div class="calculadora">
                 <input class="tela" type="text" name='tela' value=''>
-                <button class="buttonNumber um">1</button>
-                <button class="buttonNumber dois">2</button>
-                <button class="buttonNumber tres">3</button>
-                <button class="buttonNumber quatro">4</button>
-                <button class="buttonNumber cinco">5</button>
-                <button class="buttonNumber seis">6</button>
-                <button class="buttonNumber sete">7</button>
-                <button class="buttonNumber oito">8</button>
-                <button class="buttonNumber nove">9</button>
-                <button class="buttonNumber zero">0</button>
-                <button class="ponto">.</button>
-                <button class="mais">+</button>
-                <button class="menos">-</button>
-                <button class="veses">x</button>
-                <button class="divisão">÷</button>
-                <button class="igual">=</button>
+                <button class="button-default clear">C</button>
+                <button value="0" class="button button-default buttonNumber zero">0</button>
+                <button value="1" class="button button-default buttonNumber um">1</button>
+                <button value="2" class="button button-default buttonNumber dois">2</button>
+                <button value="3" class="button button-default buttonNumber tres">3</button>
+                <button value="4" class="button button-default buttonNumber quatro">4</button>
+                <button value="5" class="button button-default buttonNumber cinco">5</button>
+                <button value="6" class="button button-default buttonNumber seis">6</button>
+                <button value="7" class="button button-default buttonNumber sete">7</button>
+                <button value="8" class="button button-default buttonNumber oito">8</button>
+                <button value="9" class="button button-default buttonNumber nove">9</button>
+                <button value="." class="button button-default buttonOpera ponto">.</button>
+                <button value="+" class="button button-default buttonOpera mais">+</button>
+                <button value="-" class="button button-default buttonOpera menos">-</button>
+                <button value="x" class="button button-default buttonOpera veses">x</button>
+                <button value="÷" class="button button-default buttonOpera divisão">÷</button>
+                <button value="=" class="button button-default buttonOpera igual">=</button>
             </div>
         </div>
         
     </main>
+
+    <script src="/js/calculadora.js"></script>
 </body>
 </html>
