@@ -60,3 +60,14 @@ header h1{
     width: 25px;
     height: 25px;
 }
+
+
+@media screen and (max-width: 980px){
+
+    .header{
+        margin-right: 0;
+        width: 100%;
+    
+    }
+
+}

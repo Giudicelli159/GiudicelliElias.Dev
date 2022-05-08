@@ -28,3 +28,15 @@ body{
 
 }
 
+@media screen and (max-width: 980px){
+
+    .body{
+        min-width: 90%
+    }
+    .main{
+        margin-right: 0;
+        width: 100%;
+    
+    }
+}
+
