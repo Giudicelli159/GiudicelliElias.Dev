@@ -11,25 +11,26 @@
     width: 80%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 10px;
 }
 .div-section-defaul{
-    width: 300px;
+    width: 250px;
     height: 200px;
     background-color: var(--azul-default);
+    border-radius: 20px;
 }
 
 .div-section-defaul a{
-    width: 70%;
+    width: 99%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    border-left: 3px solid var(--black);
-    border-right: 3px solid var(--black);
+    /* border-left: 3px solid var(--black);
+    border-right: 3px solid var(--black); */
     margin: auto;
     text-align: center;
 }
@@ -43,11 +44,21 @@
     color: var(--black);
 }
 
-.div-section-defaul a:hover{
+.div-section-defaul:hover{
     transition: all 0.4s;
     color: rgba(122, 122, 122, 0.591);
+    box-shadow: 0 0 .7em rgba(0, 0, 0, 0.687);
 }
 
+.div-section-defaul a:hover{
+    transition: all 0.4s;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.div-section-defaul figure{
+    width: 50%;
+    height: 70%;
+}
 .div-section-defaul img{
     width: 100%;
     height: 100%;
