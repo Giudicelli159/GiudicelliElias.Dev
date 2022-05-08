@@ -46,15 +46,13 @@
 
 .div-section-defaul:hover{
     transition: all 0.4s;
-    color: rgba(122, 122, 122, 0.591);
     box-shadow: 0 0 .7em rgba(0, 0, 0, 0.687);
 }
 
-.div-section-defaul a:hover{
+.div-section-defaul:hover a > h4{
     transition: all 0.4s;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(122, 122, 122, 0.591);
 }
-
 .div-section-defaul figure{
     width: 50%;
     height: 70%;
