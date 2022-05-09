@@ -8,7 +8,7 @@
 
 
 .div-skills{
-    width: 85%;
+    width: 80%;
     border-radius: 20px;
     background-color: var(--azul-default);
 }
@@ -128,5 +128,12 @@
 .section-01 figure{
     width: 25%;
     margin: 0
+}
+
+
+@media screen and (max-width: 980px){
+    .div-skills{
+        width: 90%;
+    }
 }
 

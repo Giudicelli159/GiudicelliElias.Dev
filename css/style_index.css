@@ -17,8 +17,8 @@ body{
 }
 
 .body{
-    min-width: 965px;
     background-color: #D1CDCD;
+    min-width: 650px;
 }
 
 
@@ -30,12 +30,9 @@ body{
 
 @media screen and (max-width: 980px){
 
-    .body{
-        min-width: 90%
-    }
     .main{
         margin-right: 0;
-        width: 100%;
+        
     
     }
 }
