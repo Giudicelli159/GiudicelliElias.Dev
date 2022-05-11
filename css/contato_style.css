@@ -1,5 +1,12 @@
+.div-contato{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
 .contato ul{
     list-style: none;
+    padding: 0;
 }
 
 .contato ul li{

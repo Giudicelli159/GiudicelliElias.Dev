@@ -1,0 +1,52 @@
+.home{
+    width: 100%;
+    height: 914px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title-home{
+    font-size: 35px;
+    line-height: 1.3em;
+}
+.name-home{
+    color: #4eb3de;
+    font-size: 38px;
+}
+
+.links-home{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.perfil-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.perfil-home img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid var(--azul-defaul-claro);
+}
+
+.home ul img{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 1000px){
+
+}
+
+@media screen and (max-width: 980px){
+
+}

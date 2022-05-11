@@ -22,10 +22,21 @@ body{
 }
 
 
-.main{
-    margin-right: 350px;
-    padding: 20px 30px;
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+section{
+    min-height: 500px;
+    display: flex;
+}
+
+/* estilos defaults */
+
+.h2-default{
+    margin: 0;
+    font-size: 30px;
 }
 
 @media screen and (max-width: 980px){

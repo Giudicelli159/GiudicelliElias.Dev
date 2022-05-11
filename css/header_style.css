@@ -1,24 +1,28 @@
 .header{
     background-color: var(--azul-default);
+   
+}
+
+.header-content{
     color: var(--black);
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    margin-right: 350px;
-    padding: 0 15px;
 }
+.header figure{
+    height: 100%;
+    padding: 0;
+    border-right: 2px solid var(--black);
+    
+    margin: auto 0;
+    padding: 22px;
 
-header h1{
-    height: 83px;
-    padding: 0 20px;
-    margin: 0;
-    border-right: 2px solid black;
-    text-align: center;
-    display: flex;
-    align-items: center;
 }
-
+.header img{
+    width: 40px;
+    height: 40px;
+}
 .header ul{
     display: flex;
     gap: 25px;
@@ -26,10 +30,9 @@ header h1{
     
 }
 
-.header ul li a{
-    display: flex;
-    align-items: center;
-    gap: 5px;
+.header ul li{
+    cursor: pointer;
+    
 }
 
 .header ul li a img{

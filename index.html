@@ -11,11 +11,13 @@
         <link rel="stylesheet" href="css/style_index.css">
         <link rel="stylesheet" href="css/skills_style.css">
         <link rel="stylesheet" href="css/footer_style.css">
-        <link rel="stylesheet" href="css/section-01_style.css">
+        <link rel="stylesheet" href="css/home_style.css">
         <link rel="stylesheet" href="css/header_style.css">
-        <link rel="stylesheet" href="css/section-02_style.css">
+        <link rel="stylesheet" href="css/skills_style.css">
         <link rel="stylesheet" href="css/headerLateral_style.css">
-        <link rel="stylesheet" href="css/section-03_style.css">
+        <link rel="stylesheet" href="css/contato_style.css">
+        <link rel="stylesheet" href="css/projetos_style.css">
+        <link rel="stylesheet" href="css/some-mim_style.css">
 
         <!-- fonts -->
         <link rel = "preconnect" href = "https://fonts.googleapis.com">
@@ -27,122 +29,146 @@
     </head>
     <body class="body">
         <header class="header">
-            <!-- <figure class="footer-fundo">
-                <img src="imagens/plano-de-fundo.jpg" alt="tela de fundo">
-            </figure> -->
-            <h1>Giudicelli Elias</h1>
-            <ul>
-                <!-- <li><a href="#"><img src="imagens/Contact.png"><p>Contato</p></a></li> -->
-                <li><a href="https://github.com/giudicellisilva" target="_blank"><img src="imagens/github.png"><p>Github</p></a></li>
-                <li><a href="https://www.linkedin.com/in/giudicelli-silva-48b339215/" target="_blank"><img src="imagens/logotipo-do-linkedin.png" alt="icone do Linkedin"><p>Linkedin</p></a></li>
-            </ul>
+            <div class="content header-content" >
+                <figure>
+                    <img src="/imagens/g.png" alt="logo">
+                </figure>
+                <ul>
+                    <li><p>Home</p></li>
+                    <li><p>Projetos</p></li>
+                    <li><p>Contato</p></li>
+                   
+                </ul>
+            </div>
         </header>
-        <section class="header-lateral">
-            <figure>
-                <img src="imagens/perfil.jpg" alt="Foto Perfil">
-                <figcaption>
-                    <p>Sou Giudicelli Elias, estudante de Ciências da Computação. Minha meta profissional é me tornar um desenvolvedor. Atualmente atuo em maior frequência como frontEnd, usando HTLM, CSS e JS. O objetivo deste site é mostrar um pouco das minhas habilidades profissionais.</p>
-                </figcaption>   
-            </figure>
-        </section>
+        
         <main class="main">
-            <section class="section-01">
-                <h2>Skills</h2>
-                <div class="div-section-01">
-                    <div class="div-skills">
-                        <ul class="ul-buttons">
-                            <li class="html"><a id="0">HTML</a></li>
-                            <li class="css"><a id="1">CSS</a></li>
-                            <li class="js"><a id="2">JavaScript</a></li>
-                            <li class="git"><a id="3">Git</a></li>
-                            <li class="seo"><a id="4">SEO</a></li>
-                        </ul>
-                        <ul class="ul-text">
-                            <li class="html"><p id="html" class="skillsText">HTML é uma linguagem de marcação, ma qual o maior desafio dela é a parte de semântica, deixar ela mais acessível e ter pontuação alta de SEO. Já trabalhei tendo como desafio exatamente ter acessibilidade e pontuação máxima de SEO.</p></li>
-                            <li class="css"><p id="css"  class="skillsText">CSS é a linguagem que dá vida ao HTML. O maior desafio para mim com CSS é animação, consigo muito bem colocar em prática telas de Designers, mas é sempre um desafio maior colocar animações mais elaboradas em prática. Também tenho experiência profissional onde tive que implementar telas do Designer e ele fazer a validação da implementação.</p></li>
-                            <li class="js"><p id="js" class="skillsText">JavaScript é uma linguagem de programação, não foi com ela o meu primeiro contato com uma linguagem de programação mas é a que uso e estudo atualmente. Tive experiência profissional, tive desafios básicos sempre relacionado a alguma page onde não foi preciso alguma solução que só com CSS não resolveria.</p></li>
-                            <li class="git"><p id="git" class="skillsText">Github tenho contato desde a faculdade, tive que usar um repositório compartilhado para alguns projetos. Tive que estudar mais sobre quando trabalhei como Suporte Técnico, onde tive que criar fluxo para alguns repositórios, mas nada muito além. Mas o básico de Git eu sei.</p></li>
-                            <li class="seo"><p id="seo" class="skillsText">SEO, como objetivo ter um melhor ranqueamento nos mecanismo de busca para o site, meu contato foi atrelado com HTML deixando mais semântico para as buscas do Google, ainda estudando mais sobre suas estratégias e otimizações.</p></li>
+            <div class="content">
+                <section class="home">
+                    <div>
+                        <h1 class="title-home">Olá! Eu sou <br> <span class="name-home">Giudicelli Elias</span> <br> densenvolvedor Front-End.</h1>
+                        <ul class="links-home">
+                            <li><a href="https://github.com/giudicellisilva" target="_blank"><img href="https://github.com/giudicellisilva" src="imagens/github.png"></a></li>
+                            <li><a href="https://www.linkedin.com/in/giudicelli-silva-48b339215/" target="_blank"><img src="imagens/logotipo-do-linkedin.png" alt="icone do Linkedin"></a></li>
                         </ul>
                     </div>
-                </div> 
-            </section>
-
-            <section class="section-02">
-                <div class="div-barra"></div>
-                <h2>Projetos</h2>
-                <div class="section-02-projetos">
-                    <div class="div-projeto-strata div-section-defaul">
-                        <a style="text-decoration: none;" href="Pages/ProjetoStrata.html">
-                            <h4>Strata</h4>
-                            <figure>
-                                <img src="imagens/projeto-strata.png" alt="Imagem Projeto Strata">
-                            </figure>
-                        </a>
-                    </div>
-
-                    <div class="div-calculadora div-section-defaul">
-                        <a style="text-decoration: none;" href="Pages/ProjetoFashion.html">
-                            <h4>Fashion</h4>
-                            <figure>
-                                <img src="imagens/projeto-fashion.png" alt="Imagem Projeto Calculadora">
-                            </figure>
-                        </a>
-                    </div>
-
-                    <div class="div-calculadora div-section-defaul">
-                        <a style="text-decoration: none;" href="Pages/Calculadora.html">
-                            <h4>Calculadora</h4>
-                            <figure>
-                                <img src="imagens/Calculadora.png" alt="Imagem Projeto Calculadora">
-                            </figure>
-                        </a>
-                    </div>
-
-                    <div class="div-angels div-section-defaul">
-                        <a style="text-decoration: none;" href="Pages/ProjetoAngels.html">
-                            <h4>Angels</h4>
-                            <figure>
-                                <img src="imagens/Projeto-Angels.jpg" alt="Imagem Projeto Angels">
-                            </figure>
-                        </a>
-                    </div>
+                    <figure class="perfil-home">
+                        <img src="imagens/perfil.jpg" alt="Foto Perfil">  
+                    </figure>
                     
-                    <div class="div-angels div-section-defaul">
-                        <a style="text-decoration: none;" href="Pages/ProjetoCss.html">
-                            <h4>Css</h4>
-                            <figure>
-                                <img src="imagens/ProjeotCss.jpg" alt="Imagem Projeto Css">
-                            </figure>
-                        </a>
-                    </div>
+                   
+                </section>
+                <section class="skills">
+                    <h2 class="h2-default">Skills</h2>
 
-                    <div class="div-angels div-section-defaul">
-                        <a style="text-decoration: none;" href="Pages/ProjetoInfusion.html">
-                            <h4>Infusion</h4>
-                            <figure>
-                                <img src="imagens/Infusion.png" alt="Imagem Projeto Infusion">
-                            </figure>
-                        </a>
+                    <div class="div-skills-01">
+                            <div class="div-skills">
+                                <ul class="ul-buttons">
+                                    <li class="html"><a id="0">HTML</a></li>
+                                    <li class="css"><a id="1">CSS</a></li>
+                                    <li class="js"><a id="2">JavaScript</a></li>
+                                    <li class="git"><a id="3">Git</a></li>
+                                    <li class="seo"><a id="4">SEO</a></li>
+                                </ul>
+                                <ul class="ul-text">
+                                    <li class="html"><p id="html" class="skillsText">HTML é uma linguagem de marcação, ma qual o maior desafio dela é a parte de semântica, deixar ela mais acessível e ter pontuação alta de SEO. Já trabalhei tendo como desafio exatamente ter acessibilidade e pontuação máxima de SEO.</p></li>
+                                    <li class="css"><p id="css"  class="skillsText">CSS é a linguagem que dá vida ao HTML. O maior desafio para mim com CSS é animação, consigo muito bem colocar em prática telas de Designers, mas é sempre um desafio maior colocar animações mais elaboradas em prática. Também tenho experiência profissional onde tive que implementar telas do Designer e ele fazer a validação da implementação.</p></li>
+                                    <li class="js"><p id="js" class="skillsText">JavaScript é uma linguagem de programação, não foi com ela o meu primeiro contato com uma linguagem de programação mas é a que uso e estudo atualmente. Tive experiência profissional, tive desafios básicos sempre relacionado a alguma page onde não foi preciso alguma solução que só com CSS não resolveria.</p></li>
+                                    <li class="git"><p id="git" class="skillsText">Github tenho contato desde a faculdade, tive que usar um repositório compartilhado para alguns projetos. Tive que estudar mais sobre quando trabalhei como Suporte Técnico, onde tive que criar fluxo para alguns repositórios, mas nada muito além. Mas o básico de Git eu sei.</p></li>
+                                    <li class="seo"><p id="seo" class="skillsText">SEO, como objetivo ter um melhor ranqueamento nos mecanismo de busca para o site, meu contato foi atrelado com HTML deixando mais semântico para as buscas do Google, ainda estudando mais sobre suas estratégias e otimizações.</p></li>
+                                </ul>
+                            </div>
+                    </div> 
+                </section>
+    
+                <section class="sobre-mim">
+                    <h2 class="h2-default">Sobre mim</h2>
+                    <div class="div-sobre-mim">
+                        <figure class="image-sobre-mim">
+                            <img src="/imagens/web-development.png">
+                        </figure>
+                        <p class="text-sobre-mim">Sou Giudicelli Elias, estudante de Ciências da Computação. Minha meta profissional é me tornar um desenvolvedor. Atualmente atuo em maior frequência como frontEnd, usando HTLM, CSS e JS. O objetivo deste site é mostrar um pouco das minhas habilidades profissionais.</p>    
                     </div>
-                </div>
-            </section>
-
-            <section class="section-03">
-                <h2>Contato</h2>
-                <div class="contato">
-                    <ul>
-                        <li><img src="imagens/o-email.png"><p>E-mail: giudicellielias@gmail.com</p></li>
-                        <li><img src="imagens/github.png"><p>Github: <a href="https://github.com/giudicellisilva" target="_blank">https://github.com/giudicellisilva</a></p></li>
-                        <li><img src="imagens/logotipo-do-linkedin.png"><p>Linkedin: <a href="https://www.linkedin.com/in/giudicelli-silva-48b339215" target="_blank">https://www.linkedin.com/in/giudicelli-silva-48b339215</a></p></li>
-                    </ul>
-                </div>
-            </section>
+                   </section>
+    
+                <section class="projetos">
+                    <h2 class="h2-default">Projetos</h2>
+                    <div class="div-projetos">
+                        <div class="div-projeto-strata div-section-defaul">
+                            <a style="text-decoration: none;" href="Pages/ProjetoStrata.html">
+                                <h4>Strata</h4>
+                                <figure>
+                                    <img src="imagens/projeto-strata.png" alt="Imagem Projeto Strata">
+                                </figure>
+                            </a>
+                        </div>
+    
+                        <div class="div-calculadora div-section-defaul">
+                            <a style="text-decoration: none;" href="Pages/ProjetoFashion.html">
+                                <h4>Fashion</h4>
+                                <figure>
+                                    <img src="imagens/projeto-fashion.png" alt="Imagem Projeto Calculadora">
+                                </figure>
+                            </a>
+                        </div>
+    
+                        <div class="div-calculadora div-section-defaul">
+                            <a style="text-decoration: none;" href="Pages/Calculadora.html">
+                                <h4>Calculadora</h4>
+                                <figure>
+                                    <img src="imagens/Calculadora.png" alt="Imagem Projeto Calculadora">
+                                </figure>
+                            </a>
+                        </div>
+    
+                        <div class="div-angels div-section-defaul">
+                            <a style="text-decoration: none;" href="Pages/ProjetoAngels.html">
+                                <h4>Angels</h4>
+                                <figure>
+                                    <img src="imagens/Projeto-Angels.jpg" alt="Imagem Projeto Angels">
+                                </figure>
+                            </a>
+                        </div>
+                        
+                        <div class="div-angels div-section-defaul">
+                            <a style="text-decoration: none;" href="Pages/ProjetoCss.html">
+                                <h4>Css</h4>
+                                <figure>
+                                    <img src="imagens/ProjeotCss.jpg" alt="Imagem Projeto Css">
+                                </figure>
+                            </a>
+                        </div>
+    
+                        <div class="div-angels div-section-defaul">
+                            <a style="text-decoration: none;" href="Pages/ProjetoInfusion.html">
+                                <h4>Infusion</h4>
+                                <figure>
+                                    <img src="imagens/Infusion.png" alt="Imagem Projeto Infusion">
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+    
+                <section class="contato">
+                    <h2 class="h2-default">Contato</h2>
+                    <div class="div-contato">
+                        <ul>
+                            <li><img src="imagens/o-email.png"><p>E-mail: giudicellielias@gmail.com</p></li>
+                            <li><img src="imagens/github.png"><p>Github: <a href="https://github.com/giudicellisilva" target="_blank">https://github.com/giudicellisilva</a></p></li>
+                            <li><img src="imagens/logotipo-do-linkedin.png"><p>Linkedin: <a href="https://www.linkedin.com/in/giudicelli-silva-48b339215" target="_blank">https://www.linkedin.com/in/giudicelli-silva-48b339215</a></p></li>
+                        </ul>
+                    </div>
+                </section>
+                
+            </div>
             
         </main>
 
         <footer class="footer">
-            <span>Copyright ©</span>
+            <div class="content footer-content">
+                <span>Copyright ©</span>
+            </div>
         </footer>
         <script type='text/javascript' src='js/skills.js'></script>
     </body>

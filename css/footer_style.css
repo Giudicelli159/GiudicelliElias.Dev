@@ -1,18 +1,16 @@
 .footer{
     background-color: var(--azul-default);
     height: 35px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
-    margin-right: 350px;
 }
-
+    
 .footer span{
     color: var(--black);
     font-size: 16px;
     font-weight: bold; 
+
 }
 
 
