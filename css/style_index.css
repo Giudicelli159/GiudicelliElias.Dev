@@ -39,7 +39,13 @@ section{
     .main{
         padding: 0 20px;
         
-    
+    }
+
+    section{
+        min-width: 0;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
     }
 }
 
