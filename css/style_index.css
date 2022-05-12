@@ -35,11 +35,12 @@ section{
 }
 
 @media screen and (max-width: 1242px){
-
     .main{
         padding: 0 20px;
-        
+
     }
+}
+@media screen and (max-width: 980px){
 
     section{
         min-width: 0;

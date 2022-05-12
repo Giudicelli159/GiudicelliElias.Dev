@@ -25,14 +25,14 @@
     width: 40px;
     height: 40px;
 }
-.header ul{
+.links-header{
     display: flex;
     gap: 25px;
     list-style: none;
     
 }
 
-.header ul li{
+.links-header li{
     cursor: pointer;
     
 }
@@ -57,11 +57,21 @@
     color: var(--azul-default-claro);
 }
 
-.login img{
-    width: 25px;
-    height: 25px;
+.button-header{
+    display: none;
+    background-color: inherit;
+    border-style: none;
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--black);
+    cursor: pointer;
 }
 
+@media screen and (max-width: 1242px){
+    .header{
+        padding: 0 20px;
+    }
+}
 
 @media screen and (max-width: 980px){
 
@@ -69,5 +79,15 @@
         margin-right: 0;
     
     }
+
+    .button-header{
+        display: block;
+    }
+
+    .links-header{
+        display: none;
+    }
+
+
 
 }
