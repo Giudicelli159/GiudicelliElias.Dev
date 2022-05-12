@@ -1,6 +1,6 @@
 .home{
     width: 100%;
-    height: 914px;
+    height: 100vh;
     
     display: flex;
     justify-content: space-between;
@@ -9,13 +9,21 @@
 }
 
 .title-home{
-    font-size: 35px;
-    line-height: 1.3em;
+    font-size: 40px;
+    line-height: 1.5em;
 }
 .name-home{
-    color: #4eb3de;
-    font-size: 38px;
+    margin-left: 40px;
+    color: rgb(31, 145, 94);
+    animation: hue-rotate 2s linear infinite alternate;
 }
+.ola-text-home{
+    margin: 0;
+}
+.dev-text-home{
+    margin: 0 0 0 20px;
+}
+
 
 .links-home{
     list-style: none;
@@ -33,15 +41,21 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 10px solid var(--azul-defaul-claro);
+    border: 12px solid var(--azul-default-claro);
+
 }
 
 .home ul img{
-    width: 35px;
-    height: 35px;
+    width: 55px;
+    height: 55px;
     object-fit: cover;
 }
 
+@keyframes hue-rotate{
+    to{
+        filter: hue-rotate(100deg);
+    }
+}
 
 @media screen and (max-width: 1000px){
 

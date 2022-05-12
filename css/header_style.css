@@ -1,5 +1,7 @@
 .header{
+    width: 100%;
     background-color: var(--azul-default);
+    position: fixed;
    
 }
 
@@ -43,20 +45,16 @@
 
 }
 
-.header a:link, a:visited, a:active{
+.header a{
     text-decoration: none;
-
-}
-
-.header p{
     color: var(--black);
     font-size: 18px;
     font-weight: bold;
 }
 
-.header p:hover{
+.header a:hover{
     transition: all .4s;
-    color: rgba(122, 122, 122, 0.591);
+    color: var(--azul-default-claro);
 }
 
 .login img{

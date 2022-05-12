@@ -1,25 +1,26 @@
-
-
-.div-barra{
-    width: 100%;
-    height: 2px;
+.projetos{
+    scroll-margin-top:  95px;
 }
+
 
 .div-projetos{
     margin-top: 60px;
     display: flex;
     justify-content: space-around;
+    align-content: flex-start;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
 }
 .div-section-defaul{
     width: 250px;
     height: 200px;
     background-color: var(--azul-default);
     border-radius: 20px;
+    border: 2px solid var(--azul-default-claro);
+    box-sizing: border-box;
 }
 
-.div-section-defaul a{
+.div-section-defaul .links-projetos{
     width: 99%;
     height: 100%;
     display: flex;
@@ -30,6 +31,11 @@
     border-right: 3px solid var(--black); */
     margin: auto;
     text-align: center;
+    
+}
+
+.div-section-defaul .em-breve{
+    cursor: pointer;
 }
 .div-section-defaul h4{
     margin: 10px 0 0 0;
@@ -42,13 +48,14 @@
 }
 
 .div-section-defaul:hover{
-    transition: all 0.4s;
-    box-shadow: 0 0 .7em rgba(0, 0, 0, 0.687);
+    transition: all .4s;
+    box-shadow: 0 0 .7em var(--black);
+    border: 3px solid var(--black);
 }
 
 .div-section-defaul:hover a > h4{
     transition: all 0.4s;
-    color: rgba(122, 122, 122, 0.591);
+    color: var(--black);
 }
 .div-section-defaul figure{
     width: 50%;
