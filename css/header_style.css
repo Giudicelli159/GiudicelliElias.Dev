@@ -25,6 +25,8 @@
     width: 40px;
     height: 40px;
 }
+
+
 .links-header{
     display: flex;
     gap: 25px;
@@ -84,8 +86,39 @@
         display: block;
     }
 
-    .links-header{
+    .js .links-header{
         display: none;
+    }
+
+    .no-js .links-header{
+        background-color: var(--black);
+        position: fixed;
+        top: 88px;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 10px;
+
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .no-js .links-header li{
+        padding: 15px 20px;
+
+    }
+    .no-js .links-header li a{
+        color: var(--azul-default-claro);
+        
+
+    }
+
+    .no-js .links-header li a:hover{
+        color: var(--azul-default);
+        text-align: center;
+
     }
 
 
