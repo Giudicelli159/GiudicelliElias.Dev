@@ -64,5 +64,27 @@
 }
 
 @media screen and (max-width: 980px){
+    .home{
+        width: 100%;
+        height: 100vh;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
 
+    .title-home{
+        text-align: center;
+    }
+
+    .name-home , .dev-text-home{
+        margin: 0;
+    }
+
+    .links-home{
+        padding: 0;
+        justify-content: center;
+    }
+    
 }
