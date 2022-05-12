@@ -13,9 +13,11 @@
     line-height: 1.5em;
 }
 .name-home{
+    font-size: 45px;
     margin-left: 40px;
-    color: rgb(31, 145, 94);
-    animation: hue-rotate 2s linear infinite alternate;
+    color: #113CFC;
+    border-bottom: 2px solid var(--black); 
+    /* animation: hue-rotate 2s linear infinite alternate; */
 }
 .ola-text-home{
     margin: 0;

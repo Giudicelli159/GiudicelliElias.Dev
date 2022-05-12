@@ -1,5 +1,7 @@
-
-body{
+*{
+    box-sizing: border-box;
+}
+.body{
     --black:#000000;
     --green-blue: #6e93d6;
     --azul-escuro: #111b1e;
@@ -10,17 +12,10 @@ body{
     font-family: 'Roboto', Arial, sans-serif;
     color: var(--black);
     margin: 0 auto;
-   
-
-    
-    
-}
-
-.body{
-    background-color: #D1CDCD;
+    background-color: var(--background);
     min-width: 650px;
-}
 
+}
 
 .content{
     max-width: 1200px;
