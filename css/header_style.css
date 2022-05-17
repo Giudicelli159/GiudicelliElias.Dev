@@ -2,7 +2,7 @@
     width: 100%;
     background-color: var(--azul-default);
     position: fixed;
-   
+    top: 0;
 }
 
 .header-content{
