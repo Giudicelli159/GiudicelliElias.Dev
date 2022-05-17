@@ -1,4 +1,4 @@
-var buttons = document.querySelectorAll('.div-skills ul a');
+var buttons = document.querySelectorAll('.div-skills ul p');
 var paragrafos = document.querySelectorAll('.skillsText')
 var atualButton = 0;
 var atualParagrafo = 'html';

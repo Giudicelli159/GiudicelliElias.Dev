@@ -20,12 +20,12 @@
 
 }
 
-.div-skills a:link, a:visited, a:active{
+.div-skills p{
     text-decoration: none;
     color: var(--black);  
 
 }
-.div-skills .ul-buttons a{
+.div-skills .ul-buttons p{
     border: 2px solid var(--black);
     border-radius: 20px;
     display: inline;
@@ -43,7 +43,7 @@
     padding: 0;
 }
 
-.div-skills .ul-buttons a:hover{
+.div-skills .ul-buttons p:hover{
     background-color: var(--black);
     color: var(--background);
     transition: all .8s;
