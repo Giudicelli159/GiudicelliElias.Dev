@@ -35,6 +35,25 @@
     gap: 20px;
 }
 
+.links-home a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding: 0 10px;
+
+    border: 2px solid var(--black);
+    border-radius: 20px;
+}
+
+.links-home a:hover{
+    box-shadow: 0 0 .7em var(--black);
+    font-size: 19px;
+    transition: all .5s;
+}
 .perfil-home{
     display: flex;
     flex-direction: column;
@@ -49,8 +68,8 @@
 }
 
 .home ul img{
-    width: 55px;
-    height: 55px;
+    width: 40px;
+    height: 40px;
     object-fit: cover;
 }
 
