@@ -10,8 +10,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
+
 .header figure{
     height: 100%;
     padding: 0;
@@ -20,6 +20,7 @@
     margin: auto 0;
     padding: 22px;
 
+    float: left;
 }
 .header img{
     width: 40px;
@@ -81,19 +82,22 @@
         margin-right: 0;
     
     }
-
-    .button-header{
+    .header-content{
         display: block;
     }
 
-    .js .links-header{
-        display: none;
+    .button-header{
+        display: block;
+        float: right;
+        margin: 0.6em;
     }
 
-    .no-js .links-header{
+    .links-header{
+        width: 250px;
         background-color: var(--black);
+        color: white;
         position: fixed;
-        top: 88px;
+        top: 91px;
         right: 0;
         flex-direction: column;
         text-align: center;
@@ -102,20 +106,30 @@
 
         margin: 0;
         padding: 0;
-
     }
 
-    .no-js .links-header li{
+    .js .links-header{
+        transition: max-height 0.7s;
+        overflow: hidden;
+        max-height: 0;
+    }
+
+    .no-js .links-header{
+        max-height: 173px;
+        overflow: hidden;
+    }
+
+    .links-header li{
         padding: 15px 20px;
 
     }
-    .no-js .links-header li a{
+    .links-header li a{
         color: var(--azul-default-claro);
         
 
     }
 
-    .no-js .links-header li a:hover{
+    .links-header li a:hover{
         color: var(--azul-default);
         text-align: center;
 
