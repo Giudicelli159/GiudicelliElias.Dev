@@ -6,7 +6,7 @@
     var menu = new Menu({
         container: '.links-header',
         btn: '.button-header',
-        widthEnabled: 1024
+        widthEnabled: 980
 
     })
 })()
