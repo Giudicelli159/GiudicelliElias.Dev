@@ -115,7 +115,7 @@
     }
 
     .no-js .links-header{
-        max-height: 173px;
+        height: 173px;
         overflow: hidden;
     }
 
