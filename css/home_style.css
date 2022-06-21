@@ -15,10 +15,11 @@
     line-height: 1.5em;
 }
 .name-home{
-    font-size: 45px;
+    font-family: 'Montaga', serif;
+    font-size: 46px;
     margin-left: 40px;
-    color: #113CFC;
-    border-bottom: 2px solid var(--black); 
+    color: #713a84;
+    border-bottom: 2px solid #713a84; 
     /* animation: hue-rotate 2s linear infinite alternate; */
 }
 .ola-text-home{
