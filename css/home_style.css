@@ -8,6 +8,7 @@
     flex-wrap: nowrap;
 
     scroll-margin-top: 95px;
+
 }
 
 .title-home{
@@ -18,8 +19,8 @@
     font-family: 'Montaga', serif;
     font-size: 46px;
     margin-left: 40px;
-    color: #713a84;
-    border-bottom: 2px solid #713a84; 
+    color: #3FA796;
+    border-bottom: 2px solid #3FA796; 
     /* animation: hue-rotate 2s linear infinite alternate; */
 }
 .ola-text-home{
