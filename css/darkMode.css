@@ -1,0 +1,20 @@
+.dark-mode{
+    --color-name: #ffffff;
+    --color-name-default: #D0D991;
+    --color-primary: #DBF22E;
+    --color-secondary: #000000;
+    --color-tertiary: #D0D991;
+    --background-default: #000000;
+    --color-my-name: #DBF22E;
+
+    --color-tertiary: #D6E7F1;
+    --green-blue: #6e93d6;
+    --azul-escuro: #111b1e;
+    --azul-default:#2ECEF2;
+    --azul-default-old: #75D3FB;
+    --azul-default-claro:#D6E7F1;
+
+    --logo: url(../imagens/bold-g-black.svg);
+    --logo-git: url(../imagens/git-hub-logo-dark.svg);
+    --logo-linkedin:  url(../imagens/linkedin-dark.svg);
+}

@@ -11,35 +11,42 @@
 
 }
 
-.title-home{
+.home__title{
+    color: var(--color-name);
     font-size: 40px;
     line-height: 1.5em;
 }
 
-.name-home{
+.home__title___text--name{
     font-family: 'Montaga', serif;
     font-size: 46px;
     margin: 0 5px;
-    color: #3FA796;
+    color: var(--color-my-name);
+
     /* border-bottom: 2px solid #3FA796;  */
     /* animation: hue-rotate 2s linear infinite alternate; */
 }
-.ola-text-home{
+
+.home__title___text--home + div{
+    margin-left: 20px;
+}
+.home__title___text--home:nth-child(1){
     margin: 0;
 }
-.dev-text-home{
-    margin: 0 0 0 20px;
+
+
+.home__title___text--home:nth-child(3){
+    margin: 0 0 0 40px;
 }
 
-
-.links-home{
+.home__links{
     list-style: none;
     margin: 0;
     display: flex;
     gap: 20px;
 }
 
-.links-home a{
+.home .li__link{
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
@@ -47,34 +54,50 @@
     justify-content: space-between;
     align-items: center;
     gap: 5px;
-    padding: 0 10px;
+    padding: 3px 10px;
 
-    border: 2px solid var(--black);
+    border: 2px solid var(--color-name-default);
     border-radius: 20px;
+
+    color: var(--color-name-default);
 }
 
-.links-home a:hover{
-    box-shadow: 0 0 .7em var(--black);
+.home .li__link:hover{
+    box-shadow: 0 0 .7em var(--color-name-default);
+    color: var(--color-name);
     font-size: 19px;
     transition: all .5s;
 }
-.perfil-home{
+
+.home__perfil{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.perfil-home img{
+
+.home__perfil___img{
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 5px solid var(--black);
+    border: 5px solid var(--color-primary);
+    color: var(--black)
 
 }
 
-.home ul img{
-    width: 40px;
-    height: 40px;
+.home .li__link div{
+    width: 35px;
+    height: 35px;
     object-fit: cover;
+    background-image: var(--logo-git);
+    background-size: cover;
+}
+
+.home .li__link .img-linkedin{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    background-image: var(--logo-linkedin);
+    background-size: cover;
 }
 
 @keyframes hue-rotate{
@@ -100,15 +123,15 @@
         margin-top: 80px;
     }
 
-    .title-home{
+    .home__title{
         text-align: center;
     }
 
-    .name-home , .dev-text-home{
+    .home__title___text--name , .home__title___text--home{
         margin: 0;
     }
 
-    .links-home{
+    .home__links{
         padding: 0;
         justify-content: center;
     }

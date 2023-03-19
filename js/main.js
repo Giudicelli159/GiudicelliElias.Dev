@@ -4,8 +4,8 @@
     $body.classList.add('js');
 
     var menu = new Menu({
-        container: '.links-header',
-        btn: '.button-header',
+        container: '.nav__links',
+        btn: '.header__button',
         widthEnabled: 980
 
     })

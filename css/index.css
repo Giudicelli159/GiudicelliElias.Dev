@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --color-name:#384001;
+    --color-name-default:#000000;
+    --color-primary: #D0D991;
+    --color-secondary: #384001;
+    --color-tertiary: #ebebeb;
+    --green-blue: #6e93d6;
+    --color-my-name: #3b879d;
+    --azul-default:#2ECEF2;
+    --azul-default-old: #75D3FB;
+    --azul-default-claro:#D6E7F1;
+    --background-default: #e2e2e2;
+
+    --black:#000000;
+
+    --logo: url(../imagens/bold-g.svg);
+    --logo-git: url(../imagens/git-hub-logo.svg);
+    --logo-linkedin:  url(../imagens/linkedin.svg);
+
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.body{
+    color: var(--color-name);
+    margin: 0 auto;
+    background-color: var(--background-default);
+    min-width: 650px;
+
+    transition: all 1s;
+}
+
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section{
+    min-height: 500px;
+    display: flex;
+}
+
+/* estilos defaults */
+
+.title--default{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+}
+
+@media screen and (max-width: 1242px){
+    .main{
+        padding: 0 20px;
+
+    }
+}
+@media screen and (max-width: 980px){
+
+    section{
+        min-width: 0;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+

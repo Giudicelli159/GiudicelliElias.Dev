@@ -1,4 +1,4 @@
-const span = document.querySelector(".name-home");
+const span = document.querySelector(".home__title___text--name");
 const text = "Giudicelli Elias";
 const interval = 150;
 

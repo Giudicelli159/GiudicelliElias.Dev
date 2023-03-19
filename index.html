@@ -9,16 +9,20 @@
         <meta name="keywords" content="portfolio, Giudicelli, desenvolvimento, front-end, html, css, javascript">
         <link rel="shortcut icon" href="imagens/g.png" type="image/x-icon"/>
 
-        <link rel="stylesheet" href="css/style_index.css">
-        <link rel="stylesheet" href="css/skills_style.css">
-        <link rel="stylesheet" href="css/footer_style.css">
-        <link rel="stylesheet" href="css/home_style.css">
-        <link rel="stylesheet" href="css/header_style.css">
-        <link rel="stylesheet" href="css/skills_style.css">
-        <link rel="stylesheet" href="css/contato_style.css">
-        <link rel="stylesheet" href="css/projetos_style.css">
-        <link rel="stylesheet" href="css/some-mim_style.css">
-        <link rel="stylesheet" href="css/scroll_style.css">
+        <link rel="stylesheet" href="css/reset.css">
+
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/skills.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/skills.css">
+        <link rel="stylesheet" href="css/contato.css">
+        <link rel="stylesheet" href="css/projetos.css">
+        <link rel="stylesheet" href="css/some-mim.css">
+        <link rel="stylesheet" href="css/scroll.css">
+        <link rel="stylesheet" href="css/darkMode.css">
+        <link rel="stylesheet" href="css/button--darkMode.css">
 
         <!-- fonts -->
         <link rel = "preconnect" href = "https://fonts.googleapis.com">
@@ -30,75 +34,103 @@
     </head>
     <body class="no-js body">
         <header class="header">
-            <div class="content header-content" >
-                <figure>
-                    <img src="imagens/g.png" alt="logo">
+            <div class="content header__content" >
+                <figure class="header__content__figure">
+                    <div class="figure__img"></div>
                 </figure>
                 
-                <button style="display: none;" class="button-header">☰</button>
                 
-                <nav class="nav-header">
-                    <ul class="links-header">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#projetos">Projetos</a></li>
-                        <li><a href="#contato">Contato</a></li>
+                <div class="flex">   
+                    <nav class="header__content___nav">
+                        <ul class="nav__links">
+                            <li class="nav__links___li"><a class="li__link" href="#home">Home</a></li>
+                            <li class="nav__links___li"><a class="li__link" href="#projetos">Projetos</a></li>
+                            <li class="nav__links___li"><a class="li__link" href="#contato">Contato</a></li>
+                        </ul>
+                    </nav>
                     
-                    </ul>
-                </nav>
+                    <label for="checkbox" class="header__button--darkMode">
+                        <input type="checkbox" id="checkbox" >
+                        <span class="ball"></span>
+                        <img class="sun" src="./imagens/sun-line.svg" /> 
+                        <img class="moon" src="./imagens/moon-line.svg" />
+                    </label>
+
+                    <button  class="header__button" style="display: none;">☰</button>
+                </div>
+                
+
             </div>
         </header>
         
         <main class="main">
             <div class="content">
                 <section id="home" class="home">
-                    <div>
-                        <h1 class="title-home"><p class="ola-text-home">Olá! Eu sou</p> <div> &#60; <span class="name-home"></span> &#47;&#62; </div><p class="dev-text-home">densenvolvedor Front-End.</p></h1>
-                        <ul class="links-home">
-                            <li><a href="https://github.com/giudicellisilva" target="_blank"><img href="https://github.com/giudicellisilva" src="imagens/github.png" alt="icone do GitHub"> <p>GitHub</p></a></li>
-                            <li><a href="https://www.linkedin.com/in/giudicelli-silva-48b339215/" target="_blank"><img src="imagens/logotipo-do-linkedin.png" alt="icone do Linkedin"><p>Linkedin</p></a></li>
+                    <div class="flex-column">
+                        <h1 class="home__title">
+                            <p class="home__title___text--home">Olá! Eu sou</p> 
+                            <div> &#60; <span class="home__title___text--name"></span> &#47;&#62; </div>
+                            <p class="home__title___text--home">densenvolvedor Front-End.</p>
+                        </h1>
+                        <ul class="home__links">
+                            <li class="home__links___li"><a class="li__link" href="https://github.com/giudicellisilva" target="_blank"><div></div> <p>GitHub</p></a></li>
+                            <li class="home__links___li"><a class="li__link" href="https://www.linkedin.com/in/giudicelli-silva-48b339215/" target="_blank"><div class="img-linkedin"></div><p>Linkedin</p></a></li>
                         </ul>
                     </div>
-                    <figure class="perfil-home">
-                        <img src="imagens/perfil.jpg" alt="Foto Perfil">  
+                    <figure class="home__perfil">
+                        <img class="home__perfil___img" src="imagens/perfil.jpg" alt="Foto Perfil">  
                     </figure>
                     
                    
                 </section>
                 <section id="skills" class="skills">
-                    <h2 class="h2-default">Skills</h2>
+                    <h2 class="title--default">Skills</h2>
 
-                    <div class="div-skills-01">
-                            <div class="div-skills">
-                                <ul class="ul-buttons">
-                                    <li class="html"><p id="0">HTML</p></li>
-                                    <li class="css"><p id="1">CSS</p></li>
-                                    <li class="js"><p id="2">JavaScript</p></li>
-                                    <li class="git"><p id="3">Git</p></li>
-                                    <li class="seo"><p id="4">SEO</p></li>
-                                </ul>
-                                <ul class="ul-text">
-                                    <li class="html"><p id="html" class="skillsText">HTML é uma linguagem de marcação, ma qual o maior desafio dela é a parte de semântica, deixar ela mais acessível e ter pontuação alta de SEO. Já trabalhei tendo como desafio exatamente ter acessibilidade e pontuação máxima de SEO.</p></li>
-                                    <li class="css"><p id="css"  class="skillsText">CSS é a linguagem que dá vida ao HTML. O maior desafio para mim com CSS é animação, consigo muito bem colocar em prática telas de Designers, mas é sempre um desafio maior colocar animações mais elaboradas em prática. Também tenho experiência profissional onde tive que implementar telas do Designer e ele fazer a validação da implementação.</p></li>
-                                    <li class="js"><p id="js" class="skillsText">JavaScript é uma linguagem de programação, não foi com ela o meu primeiro contato com uma linguagem de programação mas é a que uso e estudo atualmente. Tive experiência profissional, tive desafios básicos sempre relacionado a alguma page onde não foi preciso alguma solução que só com CSS não resolveria.</p></li>
-                                    <li class="git"><p id="git" class="skillsText">Github tenho contato desde a faculdade, tive que usar um repositório compartilhado para alguns projetos. Tive que estudar mais sobre quando trabalhei como Suporte Técnico, onde tive que criar fluxo para alguns repositórios, mas nada muito além. Mas o básico de Git eu sei.</p></li>
-                                    <li class="seo"><p id="seo" class="skillsText">SEO, como objetivo ter um melhor ranqueamento nos mecanismo de busca para o site, meu contato foi atrelado com HTML deixando mais semântico para as buscas do Google, ainda estudando mais sobre suas estratégias e otimizações.</p></li>
-                                </ul>
+                    <div class="skills__div">
+                            <div class="skills__div___content">
+                               <img class="content__img" src="imagens/file-type-html.svg">
+                               <p class="content__description">HTML é uma linguagem de marcação, ma qual o maior desafio dela é a parte de semântica, deixar ela mais acessível e ter pontuação alta de SEO. Já trabalhei tendo como desafio exatamente ter acessibilidade e pontuação máxima de SEO.</p>
                             </div>
-                    </div> 
+
+                            <div class="skills__div___content">
+                                <img class="content__img" src="imagens/file-type-css.svg">
+                                <p class="content__description">CSS é a linguagem que dá vida ao HTML. O maior desafio para mim com CSS é animação, consigo muito bem colocar em prática telas de Designers, mas é sempre um desafio maior colocar animações em prática.</p>
+                            </div>
+
+                            <div class="skills__div___content">
+                                <img class="content__img" src="imagens/file-type-js-official.svg">
+                                <p class="content__description">JavaScript é uma linguagem de programação, não foi com ela o meu primeiro contato com uma linguagem de programação mas é a que mais prático e estudo atualmente.</p>
+                            </div>
+
+                            <div class="skills__div___content">
+                                <img class="content__img" src="imagens/git-hub-logo-dark.svg">
+                                <p class="content__description">Github tenho contato desde a faculdade, tive que usar um repositório compartilhado para alguns projetos. Tive que estudar mais sobre quando trabalhei como Suporte Técnico, onde tive que criar fluxo para alguns repositórios.</p>
+                            </div>
+
+                            <div class="skills__div___content">
+                                <img class="content__img" src="imagens/react.svg">
+                                <p class="content__description">É o meu framework queridinho, ando estudando bastante esse framework e alguns outros para complementar como Next e Redux.</p>
+                            </div>
+
+                            <div class="skills__div___content">
+                                <img class="content__img" src="imagens/seo.svg">
+                                <p class="content__description">SEO, como objetivo ter um melhor ranqueamento nos mecanismo de busca para o site, meu contato foi atrelado com HTML deixando mais semântico para as buscas do Google, ainda estudando mais sobre suas estratégias e otimizações.</p>
+                            </div>
+                    </div>
                 </section>
     
-                <section class="sobre-mim">
-                    <h2 class="h2-default">Sobre mim</h2>
-                    <div class="div-sobre-mim">
-                        <figure class="image-sobre-mim">
-                            <img src="imagens/user.png" alt="icone de user">
+                <section class="sobre">
+                    <h2 class="title--default">Sobre mim</h2>
+                    <div class="sobre__div">
+                        <figure class="sobre__div__figure">
+                            <img class="figure__img" src="imagens/perfil.jpg" alt="icone de user">
                         </figure>
-                        <p class="text-sobre-mim">Sou Giudicelli Elias, estudante de Ciências da Computação. Minha meta profissional é me tornar um desenvolvedor. Atualmente atuo em maior frequência como frontEnd, usando HTLM, CSS e JS. O objetivo deste site é mostrar um pouco das minhas habilidades profissionais.</p>    
+                        <p class="sobre__div___text">Sou Giudicelli Elias, estudante de Ciências da Computação. Minha meta profissional é me tornar um desenvolvedor Back-End. Atualmente atuo em maior frequência como Front-End, usando HTLM, CSS, JS e React. O objetivo deste site é mostrar um pouco das minhas habilidades profissionais.</p>    
                     </div>
                    </section>
     
                 <section id="projetos" class="projetos">
-                    <h2 class="h2-default">Projetos</h2>
+                    <h2 class="title--default">Projetos</h2>
                     <div class="div-projetos">
                         <div class="div-projeto-strata div-section-defaul">
                             <a class="links-projetos" style="text-decoration: none;" href="Pages/ProjetoStrata.html">
@@ -161,33 +193,17 @@
                                 </figure>
                             </a>
                         </div> 
-                        <div class="div-angels div-section-defaul">
-                            <div class="links-projetos em-breve" style="text-decoration: none;" >
-                                <h4>Em breve</h4>
-                                <figure>
-                                    <img src="imagens/em-breve.jpg" alt="Imagem Projeto Infusion">
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="div-angels div-section-defaul">
-                            <div class="links-projetos em-breve" style="text-decoration: none;">
-                                <h4>Em breve</h4>
-                                <figure>
-                                    <img src="imagens/em-breve.jpg" alt="Imagem Projeto Infusion">
-                                </figure>
-                            </div>
-                        </div> 
                     
                     </div>
                 </section>
     
                 <section id="contato" class="contato">
-                    <h2 class="h2-default">Contato</h2>
+                    <h2 class="title--default">Contato</h2>
                     <div class="div-contato">
                         <ul>
-                            <li><img src="imagens/o-email.png" alt="Icone de e-mail"><p>E-mail: giudicellielias@gmail.com</p></li>
-                            <li><img src="imagens/github.png" alt="Icone GitHub"><p>Github: <a href="https://github.com/giudicellisilva" target="_blank">https://github.com/giudicellisilva</a></p></li>
-                            <li><img src="imagens/logotipo-do-linkedin.png" alt="Logo do Linkedin"><p>Linkedin: <a href="https://www.linkedin.com/in/giudicelli-silva-48b339215" target="_blank">https://www.linkedin.com/in/giudicelli-silva-48b339215</a></p></li>
+                            <li><img src="imagens/email.svg" alt="Icone de e-mail"><p>E-mail: giudicellielias@gmail.com</p></li>
+                            <li><img src="imagens/git-hub-logo-dark.svg" alt="Icone GitHub"><p>Github: <a href="https://github.com/giudicellisilva" target="_blank">https://github.com/giudicellisilva</a></p></li>
+                            <li><img src="imagens/linkedin-dark.svg" alt="Logo do Linkedin"><p>Linkedin: <a href="https://www.linkedin.com/in/giudicelli-silva-48b339215" target="_blank">https://www.linkedin.com/in/giudicelli-silva-48b339215</a></p></li>
                         </ul>
                     </div>
                 </section>
@@ -205,5 +221,8 @@
         <script type='text/javascript' src='js/menu.js'></script>
         <script type='text/javascript' src='js/main.js'></script>
         <script type='text/javascript' src='js/digitarSozinho.js'></script>
+        <script type='text/javascript' src='js/ControlerDarkMode.js'></script>
+
+
     </body>
 </html>

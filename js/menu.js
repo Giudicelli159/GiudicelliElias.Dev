@@ -40,7 +40,7 @@ function Menu(config){
 
         var _style = {
             maxHeight: "173px",
-            overflow: 'hidden'
+            overflow: 'hidden',
         }
 
         applyStyleToNav(_style);

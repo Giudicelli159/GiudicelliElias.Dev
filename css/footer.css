@@ -1,0 +1,23 @@
+.footer{
+    background-color: var(--color-primary);
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.footer span{
+    color: var(--black);
+    font-size: 16px;
+    font-weight: bold; 
+
+}
+
+
+@media screen and (max-width: 980px){
+
+    .footer{
+        margin-right: 0;
+    
+    }
+}

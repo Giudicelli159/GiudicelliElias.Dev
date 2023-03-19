@@ -14,9 +14,8 @@
 .div-section-defaul{
     width: 250px;
     height: 200px;
-    background-color: var(--azul-default);
+    background-color: var(--color-primary);
     border-radius: 20px;
-    border: 2px solid var(--azul-default-claro);
 }
 
 .div-section-defaul .links-projetos{
@@ -41,15 +40,15 @@
 }
 
 
-.div-section-defaul a:link, a:visited, a:active{
+.div-section-defaul a:link, .div-section-defaul a:visited, .div-section-defaul a:active{
     text-decoration: none;
     color: var(--black);
 }
 
 .div-section-defaul:hover{
     transition: all .4s;
-    box-shadow: 0 0 .7em var(--black);
-    border: 3px solid var(--black);
+    box-shadow: 0 0 .7em var(--color-primary);
+    border: 3px solid var(--color-primary);
 }
 
 .div-section-defaul:hover a > h4{

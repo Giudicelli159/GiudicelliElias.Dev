@@ -1,0 +1,51 @@
+#checkbox{
+    display: none;
+}
+
+.header__button--darkMode{
+    display: block;
+    width: 60px;
+    height: 31px;
+    border: 2px solid var(--color-secondary);
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.ball, .sun, .moon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.ball{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: var(--color-secondary);
+    border-radius: 50%;
+    left: 1px;
+    z-index: 10;
+    transition: transform .5s ease-in-out;
+}
+
+.sun{
+    color: var(--color-tertiary);
+    left: 5px;
+}
+
+.moon{
+    right: 5px;
+}
+
+#checkbox:checked + .ball{
+    transform: translate(29px, -50%);
+}
+
+
+@media screen and (max-width: 980px){
+    .header__button--darkMode{
+        float: left;
+    }
+}

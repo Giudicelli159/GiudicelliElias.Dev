@@ -1,19 +1,22 @@
-.sobre-mim h2{
-    min-width: 156px;
+.sobre h2{
+    width: 500px;
 }
-.div-sobre-mim{
+.sobre__div{
     display: flex;
     justify-content: space-around;
     align-items: center;
 
 }
 
-.image-sobre-mim img{
+.sobre .figure__img{
+    border-radius: 50%;
     width: 200px;
     height: 200px;
+    border: 5px solid var(--color-primary);
 }
 
-.text-sobre-mim{
+.sobre__div___text{
+    margin-left: 10px;
     text-align: center;
     font-size: 18px;
     font-weight: 600;
