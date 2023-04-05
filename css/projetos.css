@@ -17,75 +17,63 @@
     min-height: 325px;
     background-color: var(--color-primary);
     border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.card__links{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    /* border-left: 3px solid var(--black);
-    border-right: 3px solid var(--black); */
-    margin: auto;
-    text-align: center;
-
-    cursor: pointer
+.card__link{
+    display: block;
+    width: 200px;
+    height: 220px;
     
 }
 
-.card__links___name{
+.card__name{
     padding: 16px;
 }
 
 
-.card__links:link, .card__links:visited, .card__links:active{
+.card__link:link, .card__link:visited, .card__link:active{
     text-decoration: none;
     color: var(--text-nome);
 }
 
-.card__links:hover >  .figure__img{
-    transition: all 0.4s;
-    transform: scale(2);
-}
 
-.card__links___figure{
-    width: 200px;
-    height: 200px;
-}
-
-.projetos .figure__img{
+.projetos .card__link___img{
     width: 100%;
     height: 100%;
 
     cursor: pointer;
 }
 
-.card__links___verMais{
+.card__link___verMais{
     transition: all .5s;
     cursor: pointer;
 }
 
-.card__links___figure:hover > .card__links___verMais{
+.card__link:hover > .card__link___verMais{
     width: 200px;
-    min-height: 200px;
+    min-height: 220px;
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     
     position: relative;
-    top: -202px;
+    top: -222px;
     display: flex;
     justify-content: center;
     align-items: center;  
 
 }
-.card__links___figure:hover > .card__links___verMais::after{
+.card__link:hover > .card__link___verMais::after{
     transition: all .3s;
     content: "Ver mais";
 }
 
 
 .figure__figcaption{
-    margin-top: 16px;
-    padding: 4px;
+    padding: 16px 0 16px 0 ;
+    text-align: center;
     
 }
