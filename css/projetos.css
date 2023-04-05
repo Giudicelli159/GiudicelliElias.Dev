@@ -8,6 +8,8 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
+
+    color: var(--color-secondary);
 }
 
 .section__content__card{
