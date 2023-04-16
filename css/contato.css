@@ -23,6 +23,12 @@
     font-weight: bold;
 }
 
+.contato a:link, .contato a:visited, .contato a:active{
+    text-decoration: none;
+    color: var(--text-nome);
+    text-decoration-line: underline;
+}
+
 .contato a:hover{
     color: rgba(122, 122, 122, 0.591);
     transition: all .4s;
