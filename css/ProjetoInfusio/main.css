@@ -199,7 +199,7 @@ img{
 
     background: linear-gradient(45deg, white 50%, transparent 50%) left  calc(50% + 20px) bottom no-repeat,
                 linear-gradient(-45deg, white 50%, transparent 50%) left calc(50% - 20px) bottom no-repeat,
-                url(/GiudicelliElias.Dev/imagens/img/01.jpg);
+                url(/giudicellielias/imagens/img/01.jpg);
     background-size: 40px 40px, 40px 40px, cover;
    
 }
